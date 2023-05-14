@@ -76,12 +76,13 @@ fetch('data.json')
 			titleElement.textContent = project.title;
 
 			const descriptionElement = document.createElement('p');
+			descriptionElement.classList.add("project__description")
 			descriptionElement.textContent = project.description;
 
-			const stackElement = document.createElement('div');
+			const stackElement = document.createElement('ul');
 			stackElement.classList.add('project__stack');
 			project.stack.forEach(skill => {
-				const stackItem = document.createElement('span');
+				const stackItem = document.createElement('li');
 				stackItem.classList.add('project__stack-item');
 				stackItem.textContent = skill;
 				stackElement.appendChild(stackItem);
