@@ -114,7 +114,6 @@ fetch('data.json')
 		// Populate work experience
 		const workExperienceContainer = document.querySelector('.work-experience');
 		data.workExperience.forEach(work => {
-			console.log("here")
 			const workItem = document.createElement('div');
 			workItem.classList.add('work-experience__item');
 
