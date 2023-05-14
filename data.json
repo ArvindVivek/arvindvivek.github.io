@@ -1,0 +1,32 @@
+{
+    "projects": [
+      {
+        "title": "Project 1",
+        "description": "Lorem ipsum dolor sit amet...",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "link": "https://example.com/project1"
+      },
+      {
+        "title": "Project 2",
+        "description": "Lorem ipsum dolor sit amet...",
+        "stack": ["React", "Node.js", "MongoDB"],
+        "link": "https://example.com/project2"
+      }
+    ],
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    "workExperience": [
+      {
+        "company": "Company 1",
+        "position": "Frontend Developer",
+        "duration": "2019 - 2021",
+        "description": "Lorem ipsum dolor sit amet..."
+      },
+      {
+        "company": "Company 2",
+        "position": "Full Stack Developer",
+        "duration": "2021 - Present",
+        "description": "Lorem ipsum dolor sit amet..."
+      }
+    ]
+  }
+  

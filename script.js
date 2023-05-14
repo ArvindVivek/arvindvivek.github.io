@@ -4,8 +4,8 @@ const btnTheme = document.querySelector('.fa-moon')
 const btnHamburger = document.querySelector('.fa-bars')
 
 const addThemeClass = (bodyClass, btnClass) => {
-  body.classList.add(bodyClass)
-  btnTheme.classList.add(btnClass)
+	body.classList.add(bodyClass)
+	btnTheme.classList.add(btnClass)
 }
 
 const getBodyTheme = localStorage.getItem('portfolio-theme')
@@ -20,7 +20,7 @@ const setTheme = (bodyClass, btnClass) => {
 	body.classList.remove(localStorage.getItem('portfolio-theme'))
 	btnTheme.classList.remove(localStorage.getItem('portfolio-btn-theme'))
 
-  addThemeClass(bodyClass, btnClass)
+	addThemeClass(bodyClass, btnClass)
 
 	localStorage.setItem('portfolio-theme', bodyClass)
 	localStorage.setItem('portfolio-btn-theme', btnClass)
@@ -61,3 +61,82 @@ const scrollUp = () => {
 }
 
 document.addEventListener('scroll', scrollUp)
+
+// Fetch the JSON data
+fetch('data.json')
+	.then(response => response.json())
+	.then(data => {
+		// Populate projects
+		const projectsContainer = document.querySelector('.projects__grid');
+		data.projects.forEach(project => {
+			const projectElement = document.createElement('div');
+			projectElement.classList.add('project');
+
+			const titleElement = document.createElement('h3');
+			titleElement.textContent = project.title;
+
+			const descriptionElement = document.createElement('p');
+			descriptionElement.textContent = project.description;
+
+			const stackElement = document.createElement('div');
+			stackElement.classList.add('project__stack');
+			project.stack.forEach(skill => {
+				const stackItem = document.createElement('span');
+				stackItem.classList.add('project__stack-item');
+				stackItem.textContent = skill;
+				stackElement.appendChild(stackItem);
+			});
+
+			const linkElement = document.createElement('a');
+			linkElement.classList.add('link', 'link--icon');
+			linkElement.href = project.link;
+			linkElement.target = '_blank';
+			linkElement.rel = 'noopener noreferrer';
+			linkElement.innerHTML = '<i class="fas fa-external-link-alt"></i>';
+
+			projectElement.appendChild(titleElement);
+			projectElement.appendChild(descriptionElement);
+			projectElement.appendChild(stackElement);
+			projectElement.appendChild(linkElement);
+
+			projectsContainer.appendChild(projectElement);
+		});
+
+		// Populate skills
+		const skillsContainer = document.querySelector('.skills__list');
+		data.skills.forEach(skill => {
+			const skillItem = document.createElement('span');
+			skillItem.classList.add('skills__list-item');
+			skillItem.textContent = skill;
+			skillsContainer.appendChild(skillItem);
+		});
+
+		// Populate work experience
+		const workExperienceContainer = document.querySelector('.work-experience');
+		data.workExperience.forEach(work => {
+			console.log("here")
+			const workItem = document.createElement('div');
+			workItem.classList.add('work-experience__item');
+
+			const companyElement = document.createElement('h4');
+			companyElement.textContent = work.company;
+
+			const positionElement = document.createElement('h5');
+			positionElement.textContent = work.position;
+
+			const durationElement = document.createElement('p');
+			durationElement.textContent = work.duration;
+
+			const descriptionElement = document.createElement('p');
+			descriptionElement.textContent = work.description;
+
+			workItem.appendChild(companyElement);
+			workItem.appendChild(positionElement);
+			workItem.appendChild(durationElement);
+			workItem.appendChild(descriptionElement);
+
+			workExperienceContainer.appendChild(workItem);
+		});
+	}
+	)
+
