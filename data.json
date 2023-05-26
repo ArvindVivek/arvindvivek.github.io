@@ -1,13 +1,13 @@
 {
     "projects": [
       {
-        "title": "Project 1",
-        "description": "Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo sapiente debitis labore sed ipsam Mollitia repellat illum quodunde beatae Quis",
-        "stack": ["HTML", "CSS", "JavaScript"],
-        "link": "https://example.com/project1"
+        "title": "Encrypted File Sharing System",
+        "description": "Developed an end-to-end encrypted file sharing system in Go, incorporating concepts such as Public/Private Key Encryption, HMAC generation, Symmetric Key Encryption as well as an in-depth user authentication system.",
+        "stack": ["Go"],
+        "link": "https://github.com"
       },
       {
-        "title": "Project 2",
+        "title": "Project 3",
         "description": "Lorem ipsum dolor sit amet...",
         "stack": ["React", "Node.js", "MongoDB"],
         "link": "https://example.com/project2"
