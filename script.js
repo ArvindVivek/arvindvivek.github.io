@@ -125,20 +125,25 @@ fetch('data.json')
 
 		// Populate work experience
 		const workExperienceContainer = document.querySelector('.work-experience');
+		const experiencesElement = document.createElement("h2");
+		experiencesElement.classList.add("section__title");
+		experiencesElement.textContent = "Experiences";
+		workExperienceContainer.appendChild(experiencesElement);
+
 		data.workExperience.forEach(work => {
 			const workItem = document.createElement('div');
-			workItem.classList.add('work-experience__item');
+			workItem.classList.add('experience');
 
-			const companyElement = document.createElement('h4');
+			const companyElement = document.createElement('h3');
 			companyElement.textContent = work.company;
 
 			const positionElement = document.createElement('h5');
 			positionElement.textContent = work.position;
 
-			const durationElement = document.createElement('p');
+			const durationElement = document.createElement('i');
 			durationElement.textContent = work.duration;
 
-			const descriptionElement = document.createElement('p');
+			const descriptionElement = document.createElement('li');
 			descriptionElement.textContent = work.description;
 
 			workItem.appendChild(companyElement);

@@ -46,16 +46,40 @@
     "skills": ["Java", "Python", "Javascript", "Typescript", "Scheme", "OpenCV", "Dart", "Linux", "React Native", "C", "Go",  "Microsoft Office Suite", "Adobe XD", "Fusion360", "Android Studio", "Firebase", "MySQL", "MongoDB"],
     "workExperience": [
       {
-        "company": "Company 1",
-        "position": "Frontend Developer",
-        "duration": "2019 - 2021",
-        "description": "Lorem ipsum dolor sit amet..."
+        "company": "Courtyard Ventures",
+        "position": "Investment Associate",
+        "duration": "August 2022 - Present",
+        "description": "Focused on investing in Berkeley-led startups. Completed market research, due-diligence, and investment memo for space tech and CRM startups that received funding"
       },
       {
-        "company": "Company 3",
-        "position": "Full Stack Developer",
-        "duration": "2021 - Present",
-        "description": "Lorem ipsum dolor sit amet..."
+        "company": "Nomify",
+        "position": "Software Engineer Intern",
+        "duration": "January 2023 - May 2023",
+        "description": "Tech stack: Typescript, React Native, CSS, Git. Focused on full-stack development of web application and server, developing new features on the user interface and fixing miscellaneous bugs"
+      },
+      {
+        "company": "Scurid, Inc.",
+        "position": "Software Engineer Intern",
+        "duration": "January 2023 - May 2023",
+        "description": "Tech stack: C, WolfSSL, ESP32, Git. Focused on writing Scurid security software in C for ESP32 microcontroller and deploying the Scurid Edge Agent"
+      },
+      {
+        "company": "Dbrief.ai",
+        "position": "Software Engineer Intern",
+        "duration": "August 2022 - December 2022",
+        "description": "Tech stack: Flutter, Dart, Python, MySQL, Git. Focused on full-stack development of mobile application, developing new features on the user interface and fixing miscellaneous bugs"
+      },
+      {
+        "company": "Stoke Space",
+        "position": "NewSpace@Berkeley Project Manager",
+        "duration": "August 2022 - May 2023",
+        "description": "Led team on a project identifying commercial opportunities for orbital hardware return for Stoke Space. Develop market research, the concept of operations (CONOPs) required in order to capture and return on-orbit hardware to ground and develop prototypes of potential separation systems that allow for on-orbit capturing of hardware."
+      },
+      {
+        "company": "Berkeley Formula Racing",
+        "position": "Electrical and Software Engineer",
+        "duration": "September 2021 - May 2023",
+        "description": "Working with sensors, the ECU, ADL, harnesses, live telemetry and designing a Dash PCB for brake bias and shifting indicators for the vehicle in Fusion 360. Programming in C for the ESP microcontroller for integrated circuit applications. Full-stack application for viewing car status and CAN telemetry data; Tech stack: Electron, HTML/CSS, React"
       }
     ]
   }

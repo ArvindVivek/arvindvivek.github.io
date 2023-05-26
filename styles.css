@@ -230,6 +230,7 @@ main {
 
 .section__title {
   text-align: center;
+  margin-top: 1em;
   margin-bottom: 1em;
   text-transform: uppercase;
 }
@@ -301,6 +302,17 @@ main {
 
 .about .btn--outline {
   margin-right: 1em;
+}
+
+.experience {
+  padding: 2em;
+  margin-bottom: 2%;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.experience:hover {
+  transform: translateY(-7px);
 }
 
 .projects__grid {
