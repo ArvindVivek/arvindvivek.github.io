@@ -104,13 +104,24 @@ fetch('data.json')
 		});
 
 		// Populate skills
-		const skillsContainer = document.querySelector('.skills__list');
+		const skillsContainer = document.querySelector('.section-skills');
+		const skillsElement = document.createElement("h2");
+		skillsElement.classList.add("section__title");
+		skillsElement.textContent = "Skills";
+		skillsContainer.appendChild(skillsElement);
+
+		const skillsList = document.createElement("ul");
+		skillsList.classList.add("skills__list");
 		data.skills.forEach(skill => {
-			const skillItem = document.createElement('span');
+			const skillItem = document.createElement('li');
 			skillItem.classList.add('skills__list-item');
+			skillItem.classList.add('btn');
+			skillItem.classList.add('btn--plain');
 			skillItem.textContent = skill;
-			skillsContainer.appendChild(skillItem);
+			skillsList.appendChild(skillItem);
 		});
+
+		skillsContainer.appendChild(skillsList);
 
 		// Populate work experience
 		const workExperienceContainer = document.querySelector('.work-experience');

@@ -3,17 +3,47 @@
       {
         "title": "Encrypted File Sharing System",
         "description": "Developed an end-to-end encrypted file sharing system in Go, incorporating concepts such as Public/Private Key Encryption, HMAC generation, Symmetric Key Encryption as well as an in-depth user authentication system.",
-        "stack": ["Go"],
+        "stack": ["Go", "Git"],
         "link": "https://github.com"
       },
       {
-        "title": "Project 3",
-        "description": "Lorem ipsum dolor sit amet...",
-        "stack": ["React", "Node.js", "MongoDB"],
-        "link": "https://example.com/project2"
+        "title": "Gitlet",
+        "description": "Designed and implemented a version control system (VCS) mimicking features of Git such as ability to stage and commit files, checkout previous files or entire commits, and merge files in different commits. Applied the tree map and queue data structures and the breadth-first search graph algorithm.",
+        "stack": ["Java", "JUnit", "Git"],
+        "link": "https://github.com"
+      }, 
+      {
+        "title": "Forest Fire Detection System",
+        "description": "Application incorporating change detection algorithms for forest spot fire detection using Planet's deep temporal stack of data for the Novelty Change Detection in High Temporal Frequency Satellite Imagery project.",
+        "stack": ["Python", "Tensorflow", "Google Earth Engine"],
+        "link": "https://github.com"
+      }, 
+      {
+        "title": "Commercializing Orbital Hardware Return",
+        "description": "Performed market research into potential commercial opportunities for retrieving mass from space through Stoke’s reusables rockets. Developed concept operations and prototype for arm and rail system to retrieve objects in space with a high degree of dexterity",
+        "stack": ["Fusion360"],
+        "link": "https://github.com"
+      }, 
+      {
+        "title": "Asclepius",
+        "description": "Asclepius is geared towards physical therapy patients performing corrective exercises. It serves to monitor and guide their form on key exercises, providing real-time feedback via 2 features: an accelerometer that ensures the patient maintains a safe and stable speed of motion and an OpenCV camera tracker that visually examines the user’s form and guides them toward a correct range of motion. Firebase is utilized as the backend to transfer and manage data in the cloud.",
+        "stack": ["Java", "OpenCV", "Python", "Firebase"],
+        "link": "https://github.com"
+      },
+      {
+        "title": "CovCast",
+        "description": "CoVCast is a mobile application that displays the current number of COVID-19 cases along with cases the day before in any U.S. state and a circular marker with a size to reflect the danger level of that state. Users will also be able to see day to day forecasts of future cases provided by our machine learning model in the future. The UI of CoVCast was built using Expo and React Native, while our backend machine learning model for projections was made through SK Learn.",
+        "stack": ["React Native", "Typescript", "SKLearn", "Python"],
+        "link": "https://github.com"
+      },
+      {
+        "title": "MedEssentials",
+        "description": "MedEssentials is inspired by the current need of healthcare providers for urgent medical supplies. The primary focus of the app is to connect manufacturers of health care products to medical facilities in need of these products. The app asks for the credentials to ensure that a user is a real person. It also allows healthcare professionals to conveniently see nearby medical suppliers through the Google Maps API. Medical suppliers could add descriptions of their respective products.",
+        "stack": ["Android Studio", "Java", "XML", "Google Maps API", "Firebase"],
+        "link": "https://github.com"
       }
     ],
-    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    "skills": ["Java", "Python", "Javascript", "Typescript", "Scheme", "OpenCV", "Dart", "Linux", "React Native", "C", "Go",  "Microsoft Office Suite", "Adobe XD", "Fusion360", "Android Studio", "Firebase", "MySQL", "MongoDB"],
     "workExperience": [
       {
         "company": "Company 1",
@@ -22,7 +52,7 @@
         "description": "Lorem ipsum dolor sit amet..."
       },
       {
-        "company": "Company 2",
+        "company": "Company 3",
         "position": "Full Stack Developer",
         "duration": "2021 - Present",
         "description": "Lorem ipsum dolor sit amet..."
