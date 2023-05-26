@@ -63,7 +63,7 @@ const scrollUp = () => {
 document.addEventListener('scroll', scrollUp)
 
 // Fetch the JSON data
-fetch('data.json')
+fetch('assets/data.json')
 	.then(response => response.json())
 	.then(data => {
 		// Populate projects
