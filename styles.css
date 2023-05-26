@@ -36,12 +36,13 @@ body {
 }
 
 .dark {
-  --clr-bg: #0A2647;
-  --clr-bg-alt: #144272;
-  --clr-fg: #2C74B3;
-  --clr-fg-alt: #2774b8;
-  --clr-primary: #205295;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+  /*https://colorffy.com/dark-theme-generator*/
+  --clr-bg: #12254a; /*background*/
+  --clr-bg-alt: #323b6a; /*skills btn background*/
+  --clr-fg: #838ab6; /*normal text*/
+  --clr-fg-alt: #7c7fa0; /*headers and titles*/
+  --clr-primary: #6b75a8; /*title and about me*/
+  --shadow: rgba(0, 0, 0, 0.26) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
