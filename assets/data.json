@@ -52,6 +52,12 @@
     "skills": ["Java", "Python", "Javascript", "Typescript", "Scheme", "OpenCV", "Dart", "Linux", "React Native", "C", "Go",  "Microsoft Office Suite", "Adobe XD", "Fusion360", "Android Studio", "Firebase", "MySQL", "MongoDB"],
     "workExperience": [
       {
+        "company": "First Resonance",
+        "position": "Software Engineer Intern",
+        "duration": "June 2023 - Present",
+        "description": ""
+      },
+      {
         "company": "Courtyard Ventures",
         "position": "Investment Associate",
         "duration": "August 2022 - Present",
