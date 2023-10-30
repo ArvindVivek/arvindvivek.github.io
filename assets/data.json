@@ -1,98 +1,147 @@
 {
     "projects": [
-      {
-        "title": "KetchUp",
-        "description": "Leveraging the power of AI, KetchUp summarizes unread group chats, translating the sea of messages into concise, easily digestible topics of conversation.",
-        "stack": ["OpenAI", "FastAPI", "Typescipt", "JS", "Python", "Tauri"],
-        "link": "https://devpost.com/software/ketchup-cd3pfg"
-      },
-      {
-        "title": "Encrypted File Sharing System",
-        "description": "Developed an end-to-end encrypted file sharing system in Go, incorporating concepts such as Public/Private Key Encryption, HMAC generation, Symmetric Key Encryption as well as an in-depth user authentication system.",
-        "stack": ["Go", "Git"],
-        "link": "https://github.com/ArvindVivek/Encrypted-File-Sharing-System"
-      },
-      {
-        "title": "Gitlet",
-        "description": "Designed and implemented a version control system (VCS) mimicking features of Git such as ability to stage and commit files, checkout previous files or entire commits, and merge files in different commits. Applied the tree map and queue data structures and the breadth-first search graph algorithm.",
-        "stack": ["Java", "JUnit", "Git"],
-        "link": "https://github.com/ArvindVivek/Gitlet"
-      }, 
-      {
-        "title": "Forest Fire Detection System",
-        "description": "Application incorporating change detection algorithms for forest spot fire detection using Planet's deep temporal stack of data for the Novelty Change Detection in High Temporal Frequency Satellite Imagery project.",
-        "stack": ["Python", "Tensorflow", "Google Earth Engine"],
-        "link": "https://github.com/ArvindVivek/Planet-ML-Fire-Detection"
-      }, 
-      {
-        "title": "Commercializing Orbital Hardware Return",
-        "description": "Performed market research into potential commercial opportunities for retrieving mass from space through Stoke’s reusables rockets. Developed concept operations and prototype for arm and rail system to retrieve objects in space with a high degree of dexterity",
-        "stack": ["Fusion360"],
-        "link": "https://docs.google.com/presentation/d/1IXtbYlB6dENPaBrd9-6PPzHYGySgyxNfzREeZ-j9ZHA/edit?usp=sharing"
-      }, 
-      {
-        "title": "Asclepius",
-        "description": "Asclepius is geared towards physical therapy patients performing corrective exercises. It serves to monitor and guide their form on key exercises, providing real-time feedback via 2 features: an accelerometer that ensures the patient maintains a safe and stable speed of motion and an OpenCV camera tracker that visually examines the user’s form and guides them toward a correct range of motion. Firebase is utilized as the backend to transfer and manage data in the cloud.",
-        "stack": ["Java", "OpenCV", "Python", "Firebase"],
-        "link": "https://devpost.com/software/asclepius-physical-therapy-assistant"
-      },
-      {
-        "title": "CovCast",
-        "description": "CoVCast is a mobile application that displays the current number of COVID-19 cases along with cases the day before in any U.S. state and a circular marker with a size to reflect the danger level of that state. Users will also be able to see day to day forecasts of future cases provided by our machine learning model in the future. The UI of CoVCast was built using Expo and React Native, while our backend machine learning model for projections was made through SK Learn.",
-        "stack": ["React Native", "Typescript", "SKLearn", "Python"],
-        "link": "https://devpost.com/software/covcast"
-      },
-      {
-        "title": "MedEssentials",
-        "description": "MedEssentials is inspired by the current need of healthcare providers for urgent medical supplies. The primary focus of the app is to connect manufacturers of health care products to medical facilities in need of these products. The app asks for the credentials to ensure that a user is a real person. It also allows healthcare professionals to conveniently see nearby medical suppliers through the Google Maps API. Medical suppliers could add descriptions of their respective products.",
-        "stack": ["Android Studio", "Java", "XML", "Google Maps API", "Firebase"],
-        "link": "https://devpost.com/software/medessentials"
-      }
+        {
+            "title": "KetchUp",
+            "description": "Leveraging the power of AI, KetchUp summarizes unread group chats, translating the sea of messages into concise, easily digestible topics of conversation.",
+            "stack": [
+                "OpenAI",
+                "FastAPI",
+                "Typescipt",
+                "JS",
+                "Python",
+                "Tauri"
+            ],
+            "link": "https://devpost.com/software/ketchup-cd3pfg"
+        },
+        {
+            "title": "Snarky Peek",
+            "description": "Snarky Peek is an internal tool to visualize and analyze slow and inefficient queries/mutations, and give suggestions on optimizing and improving the performance of said entities.",
+            "stack": ["Python", "HTML/CSS", "JS", "llama2", "SQL", "GraphQL"]
+        },
+        {
+            "title": "StyleAI",
+            "description": "StyleAI is an innovative platform that allows users to effortlessly manage their wardrobe and receive intelligent fashion suggestions to get outfit recommendations for various occasions.",
+            "stack": [
+                "Convex",
+                "Typescript",
+                "Together.AI",
+                "Python",
+                "OpenCV",
+                "Sci-kit Learn"
+            ],
+            "link": "https://devpost.com/software/styleai"
+        },
+        {
+            "title": "Encrypted File Sharing System",
+            "description": "Developed an end-to-end encrypted file sharing system in Go, incorporating concepts such as Public/Private Key Encryption, HMAC generation, Symmetric Key Encryption as well as an in-depth user authentication system.",
+            "stack": ["Go", "Git"],
+            "link": "https://github.com/ArvindVivek/Encrypted-File-Sharing-System"
+        },
+        {
+            "title": "Gitlet",
+            "description": "Designed and implemented a version control system (VCS) mimicking features of Git such as ability to stage and commit files, checkout previous files or entire commits, and merge files in different commits. Applied the tree map and queue data structures and the breadth-first search graph algorithm.",
+            "stack": ["Java", "JUnit", "Git"],
+            "link": "https://github.com/ArvindVivek/Gitlet"
+        },
+        {
+            "title": "Forest Fire Detection System",
+            "description": "Application incorporating change detection algorithms for forest spot fire detection using Planet's deep temporal stack of data for the Novelty Change Detection in High Temporal Frequency Satellite Imagery project.",
+            "stack": ["Python", "Tensorflow", "Google Earth Engine"],
+            "link": "https://github.com/ArvindVivek/Planet-ML-Fire-Detection"
+        },
+        {
+            "title": "Commercializing Orbital Hardware Return",
+            "description": "Performed market research into potential commercial opportunities for retrieving mass from space through Stoke’s reusables rockets. Developed concept operations and prototype for arm and rail system to retrieve objects in space with a high degree of dexterity",
+            "stack": ["Fusion360"],
+            "link": "https://docs.google.com/presentation/d/1IXtbYlB6dENPaBrd9-6PPzHYGySgyxNfzREeZ-j9ZHA/edit?usp=sharing"
+        },
+        {
+            "title": "Asclepius",
+            "description": "Asclepius is geared towards physical therapy patients performing corrective exercises. It serves to monitor and guide their form on key exercises, providing real-time feedback via 2 features: an accelerometer that ensures the patient maintains a safe and stable speed of motion and an OpenCV camera tracker that visually examines the user’s form and guides them toward a correct range of motion. Firebase is utilized as the backend to transfer and manage data in the cloud.",
+            "stack": ["Java", "OpenCV", "Python", "Firebase"],
+            "link": "https://devpost.com/software/asclepius-physical-therapy-assistant"
+        },
+        {
+            "title": "CovCast",
+            "description": "CoVCast is a mobile application that displays the current number of COVID-19 cases along with cases the day before in any U.S. state and a circular marker with a size to reflect the danger level of that state. Users will also be able to see day to day forecasts of future cases provided by our machine learning model in the future. The UI of CoVCast was built using Expo and React Native, while our backend machine learning model for projections was made through SK Learn.",
+            "stack": ["React Native", "Typescript", "SKLearn", "Python"],
+            "link": "https://devpost.com/software/covcast"
+        },
+        {
+            "title": "MedEssentials",
+            "description": "MedEssentials is inspired by the current need of healthcare providers for urgent medical supplies. The primary focus of the app is to connect manufacturers of health care products to medical facilities in need of these products. The app asks for the credentials to ensure that a user is a real person. It also allows healthcare professionals to conveniently see nearby medical suppliers through the Google Maps API. Medical suppliers could add descriptions of their respective products.",
+            "stack": [
+                "Android Studio",
+                "Java",
+                "XML",
+                "Google Maps API",
+                "Firebase"
+            ],
+            "link": "https://devpost.com/software/medessentials"
+        }
     ],
-    "skills": ["Java", "Python", "Javascript", "Typescript", "Scheme", "OpenCV", "Dart", "Linux", "React Native", "C", "Go",  "Microsoft Office Suite", "Adobe XD", "Fusion360", "Android Studio", "Firebase", "MySQL", "MongoDB"],
+    "skills": [
+        "Java",
+        "Python",
+        "Javascript",
+        "Typescript",
+        "Scheme",
+        "OpenCV",
+        "Dart",
+        "Linux",
+        "React Native",
+        "C",
+        "Go",
+        "Microsoft Office Suite",
+        "Adobe XD",
+        "Fusion360",
+        "Android Studio",
+        "Firebase",
+        "MySQL",
+        "MongoDB"
+    ],
     "workExperience": [
-      {
-        "company": "First Resonance",
-        "position": "Software Engineer Intern",
-        "duration": "June 2023 - Present",
-        "description": ""
-      },
-      {
-        "company": "Courtyard Ventures",
-        "position": "Investment Associate",
-        "duration": "August 2022 - Present",
-        "description": "Focused on investing in Berkeley-led startups. Completed market research, due-diligence, and investment memo for space tech and CRM startups that received funding"
-      },
-      {
-        "company": "Nomify",
-        "position": "Software Engineer Intern",
-        "duration": "January 2023 - May 2023",
-        "description": "Tech stack: Typescript, React Native, CSS, Git. Focused on full-stack development of web application and server, developing new features on the user interface and fixing miscellaneous bugs"
-      },
-      {
-        "company": "Scurid, Inc.",
-        "position": "Software Engineer Intern",
-        "duration": "January 2023 - May 2023",
-        "description": "Tech stack: C, WolfSSL, ESP32, Git. Focused on writing Scurid security software in C for ESP32 microcontroller and deploying the Scurid Edge Agent"
-      },
-      {
-        "company": "Dbrief.ai",
-        "position": "Software Engineer Intern",
-        "duration": "August 2022 - December 2022",
-        "description": "Tech stack: Flutter, Dart, Python, MySQL, Git. Focused on full-stack development of mobile application, developing new features on the user interface and fixing miscellaneous bugs"
-      },
-      {
-        "company": "Stoke Space",
-        "position": "NewSpace@Berkeley Project Manager",
-        "duration": "August 2022 - May 2023",
-        "description": "Led team on a project identifying commercial opportunities for orbital hardware return for Stoke Space. Develop market research, the concept of operations (CONOPs) required in order to capture and return on-orbit hardware to ground and develop prototypes of potential separation systems that allow for on-orbit capturing of hardware."
-      },
-      {
-        "company": "Berkeley Formula Racing",
-        "position": "Electrical and Software Engineer",
-        "duration": "September 2021 - May 2023",
-        "description": "Working with sensors, the ECU, ADL, harnesses, live telemetry and designing a Dash PCB for brake bias and shifting indicators for the vehicle in Fusion 360. Programming in C for the ESP microcontroller for integrated circuit applications. Full-stack application for viewing car status and CAN telemetry data; Tech stack: Electron, HTML/CSS, React"
-      }
+        {
+            "company": "First Resonance",
+            "position": "Software Engineer Intern",
+            "duration": "June 2023 - Present",
+            "description": ""
+        },
+        {
+            "company": "Courtyard Ventures",
+            "position": "Investment Associate",
+            "duration": "August 2022 - Present",
+            "description": "Focused on investing in Berkeley-led startups. Completed market research, due-diligence, and investment memo for space tech and CRM startups that received funding"
+        },
+        {
+            "company": "Nomify",
+            "position": "Software Engineer Intern",
+            "duration": "January 2023 - May 2023",
+            "description": "Tech stack: Typescript, React Native, CSS, Git. Focused on full-stack development of web application and server, developing new features on the user interface and fixing miscellaneous bugs"
+        },
+        {
+            "company": "Scurid, Inc.",
+            "position": "Software Engineer Intern",
+            "duration": "January 2023 - May 2023",
+            "description": "Tech stack: C, WolfSSL, ESP32, Git. Focused on writing Scurid security software in C for ESP32 microcontroller and deploying the Scurid Edge Agent"
+        },
+        {
+            "company": "Dbrief.ai",
+            "position": "Software Engineer Intern",
+            "duration": "August 2022 - December 2022",
+            "description": "Tech stack: Flutter, Dart, Python, MySQL, Git. Focused on full-stack development of mobile application, developing new features on the user interface and fixing miscellaneous bugs"
+        },
+        {
+            "company": "Stoke Space",
+            "position": "NewSpace@Berkeley Project Manager",
+            "duration": "August 2022 - May 2023",
+            "description": "Led team on a project identifying commercial opportunities for orbital hardware return for Stoke Space. Develop market research, the concept of operations (CONOPs) required in order to capture and return on-orbit hardware to ground and develop prototypes of potential separation systems that allow for on-orbit capturing of hardware."
+        },
+        {
+            "company": "Berkeley Formula Racing",
+            "position": "Electrical and Software Engineer",
+            "duration": "September 2021 - May 2023",
+            "description": "Working with sensors, the ECU, ADL, harnesses, live telemetry and designing a Dash PCB for brake bias and shifting indicators for the vehicle in Fusion 360. Programming in C for the ESP microcontroller for integrated circuit applications. Full-stack application for viewing car status and CAN telemetry data; Tech stack: Electron, HTML/CSS, React"
+        }
     ]
-  }
-  
+}
