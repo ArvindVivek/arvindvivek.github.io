@@ -102,6 +102,12 @@
     ],
     "workExperience": [
         {
+            "company": "Stealth Startup",
+            "position": "Co-Founder",
+            "duration": "June 2023 - Present",
+            "description": "Focused on building intelligent travel discovery and planning."
+        },
+        {
             "company": "First Resonance",
             "position": "Software Engineer Intern",
             "duration": "June 2023 - Jan 2024",
@@ -110,7 +116,7 @@
         {
             "company": "Courtyard Ventures",
             "position": "Investment Associate",
-            "duration": "August 2022 - Present",
+            "duration": "August 2022 - Sept 2023",
             "description": "Focused on investing in Berkeley-led startups. Completed market research, due-diligence, and investment memo for space tech and CRM startups that received funding"
         },
         {
