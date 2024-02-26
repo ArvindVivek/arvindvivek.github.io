@@ -14,6 +14,12 @@
             "link": "https://devpost.com/software/ketchup-cd3pfg"
         },
         {
+            "title": "BRIDGEGOOD Careers",
+            "description": "BRIDGEGOOD Careers processes a student's design portfolio website and/or resume and recommends the best roles to apply to from an internal database of jobs.",
+            "stack": ["OpenAI", "FastAPI", "BeautifulSoup4", "Vespa", "Python"],
+            "link": "https://github.com/ArvindVivek/bg-careers"
+        },
+        {
             "title": "Snarky Peek",
             "description": "Snarky Peek is an internal tool to visualize and analyze slow and inefficient queries/mutations, and give suggestions on optimizing and improving the performance of said entities.",
             "stack": ["Python", "HTML/CSS", "JS", "llama2", "SQL", "GraphQL"]
