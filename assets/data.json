@@ -1,6 +1,12 @@
 {
     "projects": [
         {
+            "title": "SimpleFlow",
+            "description": "NeuroTech-powered real-time student engagement by analyzing brain waves while listening to auditory input.",
+            "stack": ["OpenBCI", "Python", "HTML/CSS", "JS", "SKLearn"],
+            "link": "https://github.com/ArvindVivek/neurotech-hack2024/"
+        },
+        {
             "title": "KetchUp",
             "description": "Leveraging the power of AI, KetchUp summarizes unread group chats, translating the sea of messages into concise, easily digestible topics of conversation.",
             "stack": [
