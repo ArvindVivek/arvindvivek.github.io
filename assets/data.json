@@ -1,6 +1,19 @@
 {
     "projects": [
         {
+            "title": "Hanoot",
+            "description": "The ultimate AI-powered travel companion for day trips: offering personalized recommendations, intuitive gesture-based interface, and adaptive itinerary adjustments for seamless journeys.",
+            "stack": [
+                "OpenAI",
+                "Python",
+                "React Native",
+                "Typescript",
+                "Postgresql",
+                "Strawberry"
+            ],
+            "link": "https://hanoot.framer.ai/"
+        },
+        {
             "title": "SimpleFlow",
             "description": "NeuroTech-powered real-time student engagement by analyzing brain waves while listening to auditory input.",
             "stack": ["OpenBCI", "Python", "HTML/CSS", "JS", "SKLearn"],
@@ -117,7 +130,7 @@
             "company": "Hanoot",
             "position": "Co-Founder & CEO",
             "duration": "Nov 2023 - Present",
-            "description": "Focused on building intelligent travel discovery and planning."
+            "description": "The ultimate AI-powered travel companion for day trips: offering personalized recommendations, intuitive gesture-based interface, and adaptive itinerary adjustments for seamless journeys."
         },
         {
             "company": "First Resonance",
